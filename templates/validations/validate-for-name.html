@@ -1,0 +1,12 @@
+<!-- PAGE FOR VALIDATE THE PASSWORD
+FOR NAME -->
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<!-- STYLE -->
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/validations.css') }}">
+
+{% include 'partials/_validateNameForm.html' %}
+
+{% endblock %}

@@ -1,0 +1,48 @@
+/*
+ Styles
+  for the page of the
+  contacts
+*/
+
+h1 {
+  color: #333;
+  font-weight: lighter;
+  margin-left: 8rem;
+}
+
+/* View for the contacts */
+.view-contacts {
+  width: 90%;
+  margin: 4rem auto 8rem auto;
+}
+
+/* Contact */
+.contact {
+  background-color: #307388;
+  padding: 1rem;
+  border-radius: .4rem;
+  margin-bottom: 4rem;
+}
+
+.contact h3 {
+  color: #222;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+
+.contact p {
+  color: #222;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    margin-left: 1rem;
+  }
+
+  .view-contacts {
+    width: 90%;
+  }
+  
+}

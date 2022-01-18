@@ -1,0 +1,25 @@
+/* 
+  Styles
+  for the about page
+*/
+
+h1 {
+  font-weight: lighter;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #646464;
+  border-radius: .4rem;
+  padding: 1rem;
+  transition: box-shadow .3s ease;
+}
+
+.card:hover {
+  box-shadow: .3rem .3rem rgba(100, 100, 100, .2);
+}
+
+.card p {
+  font-style: italic;
+}

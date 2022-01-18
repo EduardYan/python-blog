@@ -1,0 +1,101 @@
+/* Styles for the page
+for create the account */
+
+
+p {
+  color: #aaa;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.card {
+  width: 50%;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.card label {
+  color: #888;
+  font-size: 1.1rem;
+  margin: 2rem 3rem 4rem 5rem;
+
+}
+
+.card input {
+  padding: .2rem;
+}
+
+.card #password {
+  margin-left: .5rem;
+
+}
+
+.card hr {
+  width: 70%;
+  margin: 1.3rem auto;
+}
+
+.card button {
+  display: block;
+  padding: .6rem;
+  background-color: #ddddff;
+  transition: background-color .3s ease;
+  border-radius: .3rem;
+  width: 50%;
+  margin: 2rem auto;
+  border-style: none;
+}
+
+.card button:hover {
+  cursor: pointer;
+  background-color: #ddddaa;
+}
+
+
+/* 500 pixels */
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+  }
+
+  .card label {
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    display: block;
+  }
+
+  .card input {
+    margin: auto;
+    display: block;
+  }
+
+  .card #password {
+    margin: auto;
+  }
+
+  .card button {
+    width: 80%;
+  }
+  
+}
+
+/* 700 pixels */
+@media (max-width: 700px) {
+
+  .card label {
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    display: block;
+  }
+
+  .card input {
+    margin: auto;
+    display: block;
+  }
+
+  .card #password {
+    margin: auto;
+  }
+
+}

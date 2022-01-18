@@ -1,0 +1,45 @@
+<!-- PAGE FOR THE CONTACTS -->
+
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- STYLE -->
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/contacts.css') }}">
+
+<h1>Contacts</h1>
+
+<!-- CONTACTS -->
+<section class="view-contacts">
+  <div class="contact" id="contactOne">
+    <h3>Oscar</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis ullam repudiandae eius et! Consequatur neque magni earum temporibus? Sapiente quia error sunt pariatur asperiores cupiditate a animi quod, placeat magni modi fuga totam explicabo ex ab facere velit aspernatur vero commodi officia ipsam illo? Ad voluptates deleniti cumque consequatur!</p>
+
+    <button class="btn">Contact</button>
+
+  </div>
+  <div class="contact" id="contactTwo">
+    <h3>Jonh</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis ullam repudiandae eius et! Consequatur neque magni earum temporibus? Sapiente quia error sunt pariatur asperiores cupiditate a animi quod, placeat magni modi fuga totam explicabo ex ab facere velit aspernatur vero commodi officia ipsam illo? Ad voluptates deleniti cumque consequatur!</p>
+
+    <button class="btn">Contact</button>
+  </div>
+
+  <div class="contact" id="contactThree">
+    <h3>Karla</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis ullam repudiandae eius et! Consequatur neque magni earum temporibus? Sapiente quia error sunt pariatur asperiores cupiditate a animi quod, placeat magni modi fuga totam explicabo ex ab facere velit aspernatur vero commodi officia ipsam illo? Ad voluptates deleniti cumque consequatur!</p>
+
+    <button class="btn">Contact</button>
+  </div>
+
+  <div class="contact" id="contactFour">
+    <h3>Karen</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis ullam repudiandae eius et! Consequatur neque magni earum temporibus? Sapiente quia error sunt pariatur asperiores cupiditate a animi quod, placeat magni modi fuga totam explicabo ex ab facere velit aspernatur vero commodi officia ipsam illo? Ad voluptates deleniti cumque consequatur!</p>
+
+    <button class="btn">Contact</button>
+  </div>
+
+</section>
+
+<script src="{{ url_for('static', filename = 'js/messages.js') }}" type="module"></script>
+
+{% endblock %}

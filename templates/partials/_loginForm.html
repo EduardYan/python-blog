@@ -1,0 +1,21 @@
+<!-- FORM FOR USE IN THE LOGIN -->
+<form action="{{ url_for('login-routes.login') }}" method="POST" class="card">
+  <label for="name">Username</label>
+  <input type="text" id="name" name="username" autofocus>
+
+  <hr>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password">
+
+  <button>Send</button>
+
+  <!-- SOME LINKS -->
+  <section class="links">
+    <p>
+      You not have an account create
+      <a href="{{ url_for('account-routes.create_account') }}">here</a>
+    </p>
+  </section>
+
+</form>

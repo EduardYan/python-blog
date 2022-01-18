@@ -1,0 +1,25 @@
+<!-- NAVIGATION TO USE -->
+<nav class="nav">
+  <ul class="navbar-left">
+    <li>
+      <a href="{{ url_for('themes.home', username = username) }}">
+        Blog HTML
+        <i class="fab fa-blogger"></i>
+      </a>
+      <hr>
+    </li>
+  </ul>
+
+  <ul class="navbar-right">
+    <li>
+      <a href="{{ url_for('themes.gnu_linux', username = username) }}">GNU/Linux</a>
+      <a href="{{ url_for('themes.programming', username = username) }}">Programming</a>
+      <a href="{{ url_for('themes.programs', username = username) }}">Programs</a>
+      <a href="{{ url_for('themes.contacts', username = username) }}">Contacts</a>
+      <a href="{{ url_for('about_routes.about', username = username) }}">About</a>
+      <a href="{{ url_for('login-routes.login') }}">Login</a>
+      <a href="{{ url_for('account-routes.my_account', username = username) }}">My Account</a>
+    </li>
+  </ul>
+
+</nav>

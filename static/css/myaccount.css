@@ -1,0 +1,44 @@
+/*
+  Styles
+  for my account
+*/
+
+h1 {
+  color: #eee;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.card {
+  width: 60%;
+  margin: 2rem auto 5rem auto;
+  background-color: #444;
+  padding: 1.2rem;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 1.4rem;
+}
+
+.card .data {
+  color: #777;
+}
+
+.card #password {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+
+  }
+
+  .card a {
+    margin: 1rem auto;
+    width: 90%;
+
+  }
+  
+}

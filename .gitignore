@@ -1,0 +1,4 @@
+# ignores
+.vscode
+__pycache__
+*.pyc

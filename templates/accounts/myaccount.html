@@ -1,0 +1,26 @@
+<!-- PAGE FOR THE ACCOUNT -->
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/myaccount.css') }}">
+
+<h1>My Account</h1>
+
+<div class="card">
+  <p>
+    Name: <span class="data">{{ username }}</span>
+  </p>
+
+  <hr>
+
+  <p id="password">
+    Password: <span class="data">The password is encrypted</span>
+  </p>
+
+  <a class="btn" href="{{ url_for('users.change_name', username = username, validated = '0') }}">Change my name</a>
+  <a class="btn" href="{{ url_for('users.change_password', username = username, validated = '0') }}">Change my password</a>
+
+</div>
+
+{% endblock %}

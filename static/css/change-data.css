@@ -1,0 +1,53 @@
+/*
+  Styles
+  for change password
+  or name
+*/
+
+h2 {
+  color: #aaa;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+
+.card {
+  background-color: #444;
+  padding: 2rem;
+}
+
+.card label {
+  font-size: 1.2rem;
+}
+
+.card #info {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+.card label {
+  margin: 1rem auto;
+  display: block;
+}
+
+.card input {
+  padding: .2rem;
+}
+
+.btn {
+  width: 18%;
+  margin: 3rem 0;
+}
+
+/* 700 pixels */
+@media (max-width: 700px) {
+  .btn {
+    width: 40%;
+  }
+}
+
+/* 500 pixels */
+@media (max-width: 500px) {
+  .btn {
+    width: 80%;
+  }
+}
