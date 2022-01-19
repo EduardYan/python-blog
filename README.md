@@ -34,7 +34,7 @@ python3 index.py
 
 ----------------------------------
 
-__Now you can visit this direction from the browser for watch the blog:__ <a href="http://localhost:5000" target="_blank">http://localhost:5000</a>
+__Now you can visit this direction from the browser for watch the blog:__ <a href="http://localhost:5000/login" target="_blank">http://localhost:5000/login</a>
 
 ----------------------------------
 
