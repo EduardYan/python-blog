@@ -20,6 +20,9 @@ h1 {
   box-shadow: .3rem .3rem rgba(100, 100, 100, .2);
 }
 
+
+/* about content */
+
 .card p {
-  font-style: italic;
+  font-size: 1.3rem;
 }

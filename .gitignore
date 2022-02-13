@@ -1,4 +1,9 @@
-# ignores
+# ignore virtual enviroment
+/env
+
+# configuration for vscode
 .vscode
+
+# python cache
 __pycache__
 *.pyc
