@@ -8,7 +8,7 @@ from utils.validations import validate_user
 
 themes = Blueprint('themes', __name__)
 
-# route for default
+# set the default route to redirect
 DEFAULT_ROUTE = 'themes.gnu_linux'
 
 
@@ -25,7 +25,7 @@ def home(username):
     return redirect(url_for(DEFAULT_ROUTE, username = username))
 
   else:
-    # in case not is logged
+    # in case not is logged, create a account
     return render_template('accounts/create-account.html')
 
 

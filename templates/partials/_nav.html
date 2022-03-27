@@ -2,8 +2,9 @@
 <nav class="nav">
   <ul class="navbar-left">
     <li>
+      <!-- TITLE NAV -->
       <a href="{{ url_for('themes.home', username = username) }}">
-        Blog HTML
+        My Blog
         <i class="fab fa-blogger"></i>
       </a>
       <hr>
@@ -13,11 +14,23 @@
   <ul class="navbar-right">
     <li>
       <a href="{{ url_for('themes.gnu_linux', username = username) }}">GNU/Linux</a>
+    </li>
+    <li>
       <a href="{{ url_for('themes.programming', username = username) }}">Programming</a>
+    </li>
+    <li>
       <a href="{{ url_for('themes.programs', username = username) }}">Programs</a>
+    </li>
+    <li>
       <a href="{{ url_for('themes.contacts', username = username) }}">Contacts</a>
+    </li>
+    <li>
       <a href="{{ url_for('about_routes.about', username = username) }}">About</a>
+    </li>
+    <li>
       <a href="{{ url_for('login-routes.login') }}">Login</a>
+    </li>
+    <li>
       <a href="{{ url_for('account-routes.my_account', username = username) }}">My Account</a>
     </li>
   </ul>

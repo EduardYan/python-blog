@@ -45,7 +45,7 @@ def login():
       user = Users.query.filter_by(name = username).first()
 
       if checkpw(password.value, user.password.encode()):
-        return redirect(url_for('themes.home' , username = username, password = user.password.encode()))
+        return redirect(url_for('themes.home' , username = username))
 
       else:
         flash('Password Incorrect')

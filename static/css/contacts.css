@@ -5,34 +5,42 @@
 */
 
 h1 {
-  color: #333;
+  color: #aaa;
   font-weight: lighter;
-  margin-left: 8rem;
+  text-align: center;
 }
 
+
 /* View for the contacts */
+
 .view-contacts {
   width: 90%;
   margin: 4rem auto 8rem auto;
 }
 
+
 /* Contact */
+
 .contact {
-  background-color: #307388;
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 1rem;
   border-radius: .4rem;
   margin-bottom: 4rem;
+  color: #aaa;
 }
 
 .contact h3 {
-  color: #222;
   margin-bottom: 2rem;
   font-weight: lighter;
   font-size: 1.4rem;
 }
 
 .contact p {
-  color: #222;
   margin-bottom: 3rem;
 }
 
@@ -40,9 +48,7 @@ h1 {
   h1 {
     margin-left: 1rem;
   }
-
   .view-contacts {
     width: 90%;
   }
-  
 }

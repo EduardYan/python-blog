@@ -13,6 +13,7 @@ h2 {
 .card {
   background-color: #444;
   padding: 2rem;
+  color: #aaa;
 }
 
 .card label {
@@ -20,7 +21,6 @@ h2 {
 }
 
 .card #info {
-  color: #aaa;
   font-size: 1.1rem;
 }
 
@@ -38,14 +38,18 @@ h2 {
   margin: 3rem 0;
 }
 
+
 /* 700 pixels */
+
 @media (max-width: 700px) {
   .btn {
     width: 40%;
   }
 }
 
+
 /* 500 pixels */
+
 @media (max-width: 500px) {
   .btn {
     width: 80%;

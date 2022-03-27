@@ -1,6 +1,5 @@
 /* Styles for the login page */
 
-
 h1 {
   color: #aaa;
   font-weight: lighter;
@@ -25,7 +24,6 @@ h1 {
 
 .card #password {
   margin-left: .5rem;
-
 }
 
 .card hr {
@@ -49,9 +47,8 @@ h1 {
   background-color: #ddddaa;
 }
 
-
 .card .links {
-  margin-left: 7rem;
+  margin-left: 6rem;
 }
 
 .card .links p {
@@ -64,74 +61,61 @@ h1 {
 
 
 /* 700 pixels */
+
 @media (max-width: 700px) {
   .card {
     text-align: center;
   }
-
   .card label {
     display: block;
     margin: 0 auto 1rem auto;
   }
-
   .card hr {
     width: 90%;
     margin-left: 1rem;
   }
-
   .card input {
     display: block;
     margin: auto;
   }
-
   .card #password {
     margin: auto;
   }
-
   .card button {
     margin: 3rem auto;
   }
-
   .card .links {
     margin: auto;
   }
-  
 }
 
+
 /* 500 pixels */
+
 @media(max-width: 500px) {
   .card {
     width: 100%;
     padding: 1rem;
   }
-
   .card label {
     margin: 0 auto 1rem auto;
   }
-
   .card input {
     margin: auto;
   }
-
   .card #password {
     margin: auto;
   }
-
-
   .card hr {
     width: 50%;
     margin: 1.3rem auto;
   }
-
   .card button {
     width: 60%;
     margin: 3rem auto;
   }
-
-   .card .links {
+  .card .links {
     margin: 0 auto;
     text-align: center;
-
   }
-
 }

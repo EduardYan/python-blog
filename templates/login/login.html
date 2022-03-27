@@ -8,6 +8,11 @@
   <title>Blog HTML</title>
   <!-- FAVICON -->
   <link rel="shortcut icon" href="{{ url_for('static', filename = 'img/icons/favicon.ico') }}" type="image/x-icon">
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   <!-- STYLES -->
   <link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename = 'css/login.css') }}">
@@ -16,11 +21,14 @@
 
 <body>
 
+  <!-- CONTAINER -->
   <div class="container">
 
     {% include 'partials/_messages.html' %}
 
-    <h1>Login</h1>
+    <div>
+      <h1>Login</h1>
+    </div>
 
     {% include 'partials/_loginForm.html' %}
 
