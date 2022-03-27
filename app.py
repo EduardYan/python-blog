@@ -27,7 +27,7 @@ app.secret_key = 'mysecrectkey'
 SQLAlchemy(app)
 
 
-# routes
+# using routes
 app.register_blueprint(themes)
 app.register_blueprint(about_routes)
 app.register_blueprint(users)
